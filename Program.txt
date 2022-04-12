@@ -1,0 +1,18 @@
+# 01_Help_GUI.py
+from logging import root
+from tkinter import *
+import random
+
+
+class Converter:
+    def __init__(self, parent):
+        print('hello world')
+
+
+
+# Main routine
+if __name__ == "__main__":
+    root = Tk()
+    root.title("Temperature Converter")
+    something = Converter(root)
+    root.mainloop()
